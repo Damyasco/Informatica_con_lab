@@ -61,9 +61,8 @@ int SommaMassima3(vector<int> B){
 }
 
 int main(){
-    vector<int> A = generarandomvector(100);
-    int segmax = SommaMassima2(A);
-    
-    cout<< SommaMassima2(A) <<endl;
+    vector<int> A = generarandomvector(1000);
+    int segmax = SommaMassima1(A);
+    cout<< SommaMassima1(A) <<endl;
     return 0;
 }

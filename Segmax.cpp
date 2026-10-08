@@ -57,6 +57,11 @@ int SommaMassima2(vector<int> B){
 // Soluzione 3 O(n): il meglio possibile
 int SommaMassima3(vector<int> B){
     auto maxs = 0;
+    auto somma = 0;
+    auto n = B.size();
+    for(auto i = 0; i <n; i++){
+        somma+=B[i];
+    }
     return maxs;
 }
 
